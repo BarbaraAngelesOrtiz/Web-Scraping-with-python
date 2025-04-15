@@ -1,10 +1,10 @@
 # Web-Scraping-with-python
 
-Web scraping is a technique used to extract data from websites. If you want to download a table from a web page, you can use Python libraries like requests and BeautifulSoup to get the HTML content and then extract the table. If the table is complex, it can also be useful to use pandas to organize the data. Here is a step-by-step guide on how to do this.
+🖥Web scraping is a technique used to extract data from websites. If you want to download a table from a web page, you can use Python libraries like requests and BeautifulSoup to get the HTML content and then extract the table. If the table is complex, it can also be useful to use pandas to organize the data. Here is a step-by-step guide on how to do this.
 
 ## 1. Requirements:
    
-First, install the following libraries if you don't have them installed:
+🔑First, install the following libraries if you don't have them installed:
 
             pip install requests beautifulsoup4 pandas
 
@@ -156,14 +156,14 @@ Save the extracted data into a file or database for further use. For example, sa
                          writer = csv.writer(file)
                          writer.writerow(["Title", "Description"])
                          writer.writerows(data)
-## Summary
+## 📌 Summary
 
 -requests downloads the HTML content.
 -BeautifulSoup parses the HTML and extracts the table.
 -pandas organizes the data in a structured format.
 -You save the data in a CSV or Excel file for later use.
 
-## Best Practices
+## 💡Best Practices
 
 -Respect Robots.txt: Always check the website’s robots.txt file to ensure your scraping activities are allowed.
 -Use Proxies: To avoid IP bans, consider using proxy servers for large-scale scraping.
