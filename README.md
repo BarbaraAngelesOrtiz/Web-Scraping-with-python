@@ -171,3 +171,14 @@ Save the extracted data into a file or database for further use. For example, sa
 -Error Handling: Implement try-except blocks to manage unexpected issues during scraping.
 
 By combining Selenium and BeautifulSoup, you can effectively scrape dynamic websites and harness valuable data for your projects. Happy scraping!
+
+  ## Author
+**Bárbara Ángeles Ortiz**
+
+ <img src="https://avatars.githubusercontent.com/u/105976212?v=4" width=115><br><sub></sub>
+
+[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
+
+![Status](https://img.shields.io/badge/status-finished-brightgreen)
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
